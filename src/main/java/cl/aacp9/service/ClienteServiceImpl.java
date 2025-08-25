@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import cl.aacp9.modelDTO.ClienteDTO;
+import cl.aacp9.DTO.ClienteDTO;
 @Service
 public class ClienteServiceImpl implements ClienteService {
 	@Autowired
